@@ -42,9 +42,28 @@
 }
 
 .sr{
-  background-color: white;
+  position:relative;
+  top:0px;
+
   width: 300px;
   height:100px;
   margin-top: 5px;
   color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > span{
+    background-color: green;
+    height: 20px;
+    width: 50px;
+    position:absolute;
+    top:00px;
+    font-size: large;
+  }
+}
+
+.card{
+  width: 500px;
+  height: 400px;
 }
